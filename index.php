@@ -27,7 +27,7 @@
                <a href="">Services</a>
                <a href="">Events</a>
                <a href="">Blogs</a>
-               <a href="">Contact Us</a>
+               <a href="contaact.php">Contact Us</a>
                <button><b>Coming Soon</b></button>
                <i class="ri-menu-line"></i>
             </ul>
