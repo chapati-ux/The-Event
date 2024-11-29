@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html body{
+    height: 100%;
+    width: 100%;
+}
+
+span{
+    color:#3E0C61;
+    
+}
+#whatsapp{
+    width: 50px;
+    height: 40px;
+    background-color: red;
+    position: fixed;
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%,-50%);
+    display: none;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    margin-top: 2rem;
+    position: absolute;
+    width: 100%;
+    height: 5.938rem;
+    padding: 0px 3rem;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 11111;
+}
+nav #logo{
+    height: 100%;
+    width: 20%;
+    background-color: gray;
+}
+nav #links{
+   height: 100%;
+   width: 67.5rem;
+   background-color: #C87AFF;
+   border-radius: 3.125rem;
+   padding: 1rem;
+}
+nav #links ul{
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 1.375rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav #links a{
+    text-decoration: none;
+    color: white;
+}
+nav .ri-menu-line{
+    display: none;
+}
+#links button{
+    height: 3.2rem;
+    width: 7rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    color: #C87AFF;
+}
+@media (width < 600px) {
+    nav{
+        margin-top: 0;
+        width: 100%;
+        height: 5rem;
+        padding: 0px 0px;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    nav #logo{
+        width: 50%;
+        background-color: red;
+    }
+    nav #links{
+        height: 100%;
+        width: 50%;
+        background-color: #C87AFF;
+        border-radius: 0;
+        padding: 1rem;
+     }
+     nav #links ul{
+       display: none;
+    }
+    nav .ri-menu-line{
+        display: block;
+    }
+}
+
+@media  ( width > 600px) and (width < 900px ){
+   
+    nav{
+        margin-top: 2rem;
+        width: 100%;
+        height: 5rem;
+        padding: 0px 1rem;
+    }
+    nav #logo{
+        height: 100%;
+        width: 15%; 
+        background-color: gray;
+    }
+    nav #links{
+       height: 100%;
+       width: 85%;
+       background-color: #C87AFF;
+       border-radius: 3.125rem;
+       padding: 1rem;
+    }
+    nav #links ul{
+        height: 100%;
+        width: 100%;
+        color: white;
+        font-size: 1rem;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    nav #links a{
+        text-decoration: none;
+        color: white;
+    }
+    #links button{
+        height: 2.5rem;
+        width: 5rem;
+        font-size: 0.8rem;
+    }
+}
+#slider{
+    height: 20rem;
+    width: 10rem;
+    background-color: green;
+    padding: 1rem;    
+    position: absolute;
+    top: 5rem;
+    left: 10%;
+    overflow-y: hidden;
+    display: none;
+ }
+#links1{
+    height: 100%;
+    width: 100%; 
+ }
+
+
+ /*--page1--*/
+#page1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#container{
+    height: 17.4375rem;
+    width: auto;
+    gap: 2rem;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 17.4375rem;
+    width: 25.625rem;
+    background-color: rgba(200, 122, 255, 0.19); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.box p{
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    text-align: center;
+    color:#686868;   
+}
+.box a{
+    text-decoration: none;
+
+}
+#text{
+    font-size: 1.5625rem;
+    position: absolute;
+    top: 25%;
+    color: #3E0C61;
+}
+@media (width<600px) {
+    #page1{
+        padding: 1rem;
+    }
+    #container{
+        flex-direction: column;
+        height: 80%;
+        width: 100%;
+    }
+    .box{
+        width: 100%;
+    }
+    #text{
+        top: 12%;
+    }
+}
