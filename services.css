@@ -1,19 +1,38 @@
-.body{
+*{
+    padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #000;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+span{
+    color: #C87AFF;
 }
 
 /* header and nav */
 
+#whatsapp{
+    width: 50px;
+    height: 40px;
+    background-color: red;
+    position: fixed;
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%,-50%);
+    display: none;
+}
 #main{
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
 }
 
 nav{
-    margin-top: 1rem;
+    margin-top: 2rem;
     position: absolute;
     width: 100%;
     height: 5.938rem;
@@ -145,133 +164,251 @@ nav .ri-menu-line{
     height: 100%;
     width: 100%; 
  }
-/* .header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 50px;
-    background-color: #e5b8ff;
-}
 
-.header .logo{
-    font-size: 14px;
-    display: block;
-}
 
-.nav{
-    display: flex;
-    gap: 20px;
-}
-
-.nav a{
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
-.nav a:hover{
-    text-decoration: underline;
-}
-
-.login{
-    background-color: #fff;
-    color: #a552ff;
-    padding: 5px 15px;
-    border-radius: 25px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.login:hover{
-    background-color: #f0e5ff;
-} */
 
 /* main */
 .services{
     text-align: center;
-    padding: 200px 10px;
+    padding: 280px 10px 120px 10px;
 }
 
 .services h2{
-    font-size: 35px;
+    font-size: 30px;
     color: rgb(62, 12, 97);
     font-weight: bold;
     margin-top: -20px;
 }
 
 .services h1{
-    padding-top: 5px;
-    font-size: 75px;
+    padding-top: 25px;
+    font-size: 68px;
     font-weight: bold;
     color: #000;
+    line-height: 1.5;
 }
 
 .services h1 span{
     color: #a552ff;
 }
 
-.heading1, .heading3, .heading5, .heading7{
-    background-color: #4b236d;
-    color: #fff;
-    padding: 15px 20px;
-    margin-top: -20px;
-    color: #fff;
+/* content after service */
+.content{
+  position: relative;
+}
+
+.heading1{
+    background-color:  #4b236d;
+    height: 500px;
     text-align: left;
 }
 
-.heading1, .heading3, .heading5, .heading7 h2{
-    font-size: 24px;
+.heading1 h2{
+    font-size: 25px;
     margin-bottom: 10px;
+    text-align: left;
+    color: white;
+    padding-top: 40px;
+    padding-left: 80px;
 }
-.heading1, .heading3, .heading5, .heading7 p{
-    font-size: 16px;
+
+.heading1 p{
+    font-size: 20px;
     line-height: 1.6;
+    text-align: left;
+    padding-left: 100px;
+    color: #C87AFF;
 }
 
-/* .heading1, .heading3, .heading5, .heading7 img{
-    margin-top: 20px;
-} */
-
-.heading1, .heading3, .heading5, .heading7 img{
-    margin-top: 20px;
+.content .img1{
+    margin-left: 70%;
+    margin-top: -30%;
+    padding-bottom: 35px;
 }
 
-.heading2, .heading4, .heading6{
+.heading2{
     background-color:white;
-    color:violet;
-    padding: 20px 20px;
-    margin-top: -20px;
+    height: 500px;
     text-align: right;
 }
 
-.heading2, .heading4, .heading6 h2{
-    font-size: 24px;
+.heading2 h2{
+    font-size: 25px;
     margin-bottom: 10px;
+    text-align: right;
+    color: #4b236d;
+    padding-top: 40px;
+    padding-right: 30px;
 }
 
-.heading2, .heading4, .heading6 p{
-    font-size: 16px;
+.heading2 p{
+    font-size: 20px;
     line-height: 1.6;
+    text-align: right;
+    padding-right: 60px;
+    color: #C87AFF;
 }
 
-.heading2, .heading4, .heading6 img{
-    margin-top: 20px;
+.content .img2{
+    margin-right: 70%;
+    margin-top: -30%;
+    padding-bottom: 35px;
+    padding-left: 80px;
+}
+
+.heading3{
+    background-color:  #4b236d;
+    height: 500px;
     text-align: left;
 }
 
-/* question with answer */
-
-.content{
-    padding-top: 5px;
-    margin-top: 20px;
+.heading3 h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 80px;
+    color: white;
+    padding-top: 40px;
 }
+
+.heading3 p{
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: left;
+    padding-left: 100px;
+    color: #C87AFF;
+}
+
+.content .img3{
+    margin-left: 70%;
+    margin-top: -30%;
+}
+
+.heading4{
+    background-color:white;
+    height: 500px;
+    text-align: right;
+}
+
+.heading4 h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: right;
+    color: #4b236d;
+    padding-top: 40px;
+    padding-right: 30px;
+}
+
+.heading4 p{
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: right;
+    padding-right: 60px;
+    color: #C87AFF;
+}
+
+.content .img4{
+    margin-right: 70%;
+    margin-top: -30%;
+    padding-bottom: 35px;
+    padding-left: 80px;
+}
+
+.heading5{
+    background-color:  #4b236d;
+    height: 500px;
+    text-align: left;
+}
+
+.heading5 h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: white;
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+.heading5 p{
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: left;
+    padding-left: 100px;
+    color: #C87AFF;
+}
+
+.content .img5{
+    margin-left: 70%;
+    margin-top: -30%;
+    padding-bottom: 45px;
+}
+
+.heading6{
+    background-color:white;
+    height: 500px;
+    text-align: right;
+}
+
+.heading6 h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: right;
+    color: #4b236d;
+    padding-top: 40px;
+    padding-right: 30px;
+}
+
+.heading6 p{
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: right;
+    padding-right: 60px;
+    color: #C87AFF;
+}
+
+.content .img6{
+    margin-right: 70%;
+    margin-top: -30%;
+    padding-bottom: 35px;
+    padding-left: 80px;
+}
+
+.heading7{
+    background-color:  #4b236d;
+    height: 400px;
+    text-align: left;
+}
+
+.heading7 h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: white;
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+.heading7 p{
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: left;
+    padding-left: 100px;
+    color: #C87AFF;
+}
+
+.content .img7{
+    margin-left: 70%;
+    margin-top: -25%;
+}
+
+/* question with answer */
 
 .desc {
     text-align: center;
     background-color: white;
     padding: 10px 20px;
     margin-top: -30px;
-    padding-top: 30px;
+    padding-top: 80px;
     padding-bottom: 80px;
     color: black;
 }
@@ -281,7 +418,7 @@ nav .ri-menu-line{
     font-size: 80px;
     padding: 40px;
     color: black;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 .desc .highlight {
@@ -291,12 +428,13 @@ nav .ri-menu-line{
 .desc .heading p{
     font-size: 30px;
     color: black;
+    padding-bottom: 40px;
 }
 /* form */
 .form-section {
     text-align: center;
     background-color: rgba(200, 122, 255, 255);
-    padding: 55px;
+    padding: 80px;
 }
 
 .form-container {
