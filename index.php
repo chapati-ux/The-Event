@@ -22,9 +22,9 @@
         <div id="links">
             <ul>
                <a href="">Home</a>
-               <a href="">About Us</a>
+               <a href="about.html">About Us</a>
                <a href="">Gallery</a>
-               <a href="">Services</a>
+               <a href="services.html">Services</a>
                <a href="">Events</a>
                <a href="">Blogs</a>
                <a href="contaact.php">Contact Us</a>
@@ -72,7 +72,7 @@
       <div id="page2">
         <div id="page2text">
         <h2>Our Experties</h2>
-        <h1>From mind to <span>spotlite,</span> idea travel <br>
+        <h1>From mind to <span>spotlight,</span> idea travel <br>
         and we make it <span>happen!</span></h1>
 
         <p>We're not just planners; we're storytellers, coordinators, and creators. Our services <br>
