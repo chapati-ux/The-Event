@@ -12,37 +12,33 @@
 </head>
 <body>
     <div id="main">
-       <nav>
-        <div id="logo"></div>
-        <div id="links">
-            <ul>
-               <a href="index.php">Home</a>
-               <a href="">About Us</a>
-               <a href="">Gallery</a>
-               <a href="">Services</a>
-               <a href="">Events</a>
-               <a href="">Blogs</a>
-               <a href="">Contact Us</a>
-               <button><b>Coming Soon</b></button>
-               <i class="ri-menu-line"></i>
-            </ul>
+    <div id="nav">
+      <div id="logo"></div>
+           <div id="list">
+                <a href="index.php">Home</a>
+                <a href="">About Us</a>
+                <a href="">Gallery</a>
+                <a href="">services</a>
+                <a href="">Events</a>
+                <a href="">Blogs</a>
+                <a href="contact.php">Contact Us</a>
+                <button><b>Coming soon</b></button>
+            </div>
+            <div id="con">
+                <i class="ri-menu-line" id="m"></i>
+                </div>
         </div>
 
-        <div id="slider">
-       <div id="links1">
-            <ul>
-               <li>Home</li>
-               <li>About Us</li>
-               <li>Gallery</li>
-               <li>Services</li>
-               <li>Events</li>
-               <li>Blogs</li>
-               <li>Contact Us</li>
-               <button>Coming Soon</button>
-            </ul>
+        <div id="bar">
+            <a href="index.php">Home</a>
+            <a href="">About Us</a>
+            <a href="">Gallery</a>
+            <a href="">services</a>
+            <a href="">Events</a>
+            <a href="">Blogs</a>
+            <a href="contact.php">Contact Us</a>
+            <button><b>Coming soon</b></button>
         </div>
-       </div>
-       </nav>
 
        <div id="page1">
         <h1 id="text">Contact us</h1>
@@ -52,7 +48,7 @@
                 Ulwe Navi Mumbai </p>
 
              <p> <span><b>Phone no</b> </span> <br>
-             9769223537</p> 
+             <a href="tel:+91 7208708137">9769223537</a></p> 
 
                <p><span><b>Email id:</b>  </span><br>
               <a href="mailto: thehappeningevents11@gmail.com">thehappeningevents11@gmail.com</a>  
@@ -69,5 +65,6 @@
         </div>
        </div>
     </div><!--main-->
+    <script src="contact.js"></script>
 </body>
 </html>

@@ -15,39 +15,48 @@
 
 </head>
 <body>
-    <div id="whatsapp"></div>
+    <div id="whatsapp">
+      <a href="https://Wa.me/+917208708137" target="_blank">
+      <img src="srcs/whatsapp-fill.svg" alt="">
+      <i class="ri-whatsapp-line"></i>
+      </a>
+      <div id="phone">
+        <a href="tel:+91 7208708137">    
+              <i class="ri-phone-line"></i>
+      </a>
+      </div>
+    </div>
     <div id="main">
-       <nav>
-        <div id="logo"></div>
-        <div id="links">
-            <ul>
-               <a href="">Home</a>
-               <a href="about.html">About Us</a>
-               <a href="">Gallery</a>
-               <a href="services.html">Services</a>
-               <a href="">Events</a>
-               <a href="">Blogs</a>
-               <a href="contaact.php">Contact Us</a>
-               <button><b>Coming Soon</b></button>
-               <i class="ri-menu-line"></i>
-            </ul>
+     
+     <div id="nav">
+      <div id="logo"></div>
+           <div id="list">
+                <a href="index.php">Home</a>
+                <a href="">About Us</a>
+                <a href="">Gallery</a>
+                <a href="">services</a>
+                <a href="">Events</a>
+                <a href="">Blogs</a>
+                <a href="contact.php">Contact Us</a>
+                <button><b>Coming soon</b></button>
+            </div>
+            <div id="con">
+                <i class="ri-menu-line" id="m"></i>
+                </div>
+
         </div>
 
-        <div id="slider">
-       <div id="links1">
-            <ul>
-               <li>Home</li>
-               <li>About Us</li>
-               <li>Gallery</li>
-               <li>Services</li>
-               <li>Events</li>
-               <li>Blogs</li>
-               <li>Contact Us</li>
-               <button>Coming Soon</button>
-            </ul>
+        <div id="bar">
+            <a href="index.php">Home</a>
+            <a href="">About Us</a>
+            <a href="">Gallery</a>
+            <a href="">services</a>
+            <a href="">Events</a>
+            <a href="">Blogs</a>
+            <a href="contact.php">Contact Us</a>
+            <button><b>Coming soon</b></button>
         </div>
-       </div>
-       </nav>
+     
      
 
        <!-- page1-->
@@ -85,21 +94,99 @@
         <div id="swiperdiv">
         <div class="swiper mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">Slide 1</div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-      <div class="swiper-slide">Slide 4</div>
-      <div class="swiper-slide">Slide 5</div>
-      <div class="swiper-slide">Slide 6</div>
-      <div class="swiper-slide">Slide 7</div>
-      <div class="swiper-slide">Slide 8</div>
-      <div class="swiper-slide">Slide 9</div>
+      <div class="swiper-slide">
+        <div class="box1">
+          <div id="imagebox">  
+             <img src="/srcs/young man in fashion clothes.png" alt="">
+          </div>
+        </div>
+        <div class="box2">
+          <p><b><span>Fashion Show</span></b></p>
+        <p>Organizing and managing runway shows, designer showcases, and styling events.</p></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box1">
+        <div id="imagebox">
+          <img src="srcs/Celebrating college graduation.png" alt="">
+      </div>
+      </div>
+      <div class="box2">
+        <p><b><span>College events</span></b></p>
+        <p>Handling college festivals, cultural programs, and academic celebrations.</p>
+      </div>
+    </div>
+      <div class="swiper-slide">
+        <div class="box1">
+          <div id="imagebox">
+            <img src="srcs/People dancing at a party.png" alt="">
+          </div>
+        </div>
+        <div class="box2">
+          <p><b><span>Dance events</span></b></p>
+          <p>Managing dance competitions, performances, and themed dance nights.</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box1">
+          <div id="imagebox">
+            <img src="" alt="">
+          </div>
+        </div>
+        <div class="box2">
+          <p><b><span></span></b></p>
+          <p></p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box1">
+          <div id="imagebox">
+            <img src="" alt="">
+          </div>
+        </div>
+        <div class="box2">
+          <p><b><span></span></b></p>
+          <p></p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box1">
+          <div id="imagebox">
+            <img src="" alt="">
+          </div>
+        </div>
+        <div class="box2">
+          <p><b><span></span></b></p>
+          <p></p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box1">
+          <div id="imagebox">
+            <img src="" alt="">
+          </div>
+        </div>
+        <div class="box2">
+          <p><b><span></span></b></p>
+          <p></p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box1">
+          <div id="imagebox">
+            <img src="" alt="">
+          </div>
+        </div>
+        <div class="box2">
+          <p><b><span></span></b></p>
+          <p></p>
+        </div>
+      </div>
     </div>
     <div class="swiper-pagination"></div>
            </div>
         </div>   
        </div>
-      </div>
+      
 
       <!--page3-->
       <div id="page3">
@@ -158,15 +245,25 @@
         <div id="p5swiper">
         <div class="swiper mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">Slide 1</div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-      <div class="swiper-slide">Slide 4</div>
-      <div class="swiper-slide">Slide 5</div>
-      <div class="swiper-slide">Slide 6</div>
-      <div class="swiper-slide">Slide 7</div>
-      <div class="swiper-slide">Slide 8</div>
-      <div class="swiper-slide">Slide 9</div>
+      <div class="swiper-slide"><img src="gallery/img1.png" alt=""></div>
+      <div class="swiper-slide"><img src="gallery/img2.png" alt=""></div>
+      <div class="swiper-slide"><img src="gallery/img3.png" alt=""></div>
+      <div class="swiper-slide"><img src="gallery/img4.png" alt=""></div>
+      <div class="swiper-slide"><img src="gallery/img5.png" alt=""></div>
+      <div class="swiper-slide"><img src="gallery/img6.jpeg" alt=""></div>
+      <div class="swiper-slide"><img src="gallery/img7.jpeg" alt=""></div>
+      <div class="swiper-slide"><img src="gallery/img8.jpeg" alt=""></div>
+      <div class="swiper-slide"><img src="gallery/img9.jpeg" alt=""></div>
+
+      <div class="swiper-slide"><img src="gallery/img1.png" alt=""></div>
+      <div class="swiper-slide"><img src="gallery/img2.png" alt=""></div>
+      <div class="swiper-slide"><img src="gallery/img3.png" alt=""></div>
+      <div class="swiper-slide"><img src="gallery/img4.png" alt=""></div>
+      <div class="swiper-slide"><img src="gallery/img5.png" alt=""></div>
+      <div class="swiper-slide"><img src="gallery/img6.jpeg" alt=""></div>
+      <div class="swiper-slide"><img src="gallery/img7.jpeg" alt=""></div>
+      <div class="swiper-slide"><img src="gallery/img8.jpeg" alt=""></div>
+      <div class="swiper-slide"><img src="gallery/img9.jpeg" alt=""></div>
     </div>
     <div class="swiper-pagination"></div>
            </div>
@@ -184,17 +281,24 @@
           <div id="p6cards">
             <div class="card">
               <h3>MGM college College Fest</h3>
-             
+              <p>The Happening Events portal made organizing our college fest so easy! From managing hundreds of registrations to keeping track of attendees, everything was seamless. It saved us so much time, and we could focus on making the event fun for everyone. Highly recommend it to all event organizers.</p>
+             <div id="p"><p><span><b>-Chaitali ghadekar <br> Mgm College Principal</b></span></p></div>
             </div>
             <div class="card">
               <h3>Rapid Romance :
               Dating Event</h3>
-            
+              <p>I used The Happening Events for a professional workshop, and the experience was flawless. The registration process was quick and easy for participants, and I could access all the data securely in one place. It’s such a reliable platform—I’ll definitely use it for future events.</p>
+              <div id="p"><p><span><b>-Adinath <br>
+              Organizer owner of Squees and Spoon</b></span></p></div>
+
             </div>
             <div class="card">
-              <h3>Saundaryavati me mumbachi:
+              <h3>Saundaryavati me mumbachi: <br>
               Fashion Show Event</h3>
-              
+              <p>The Happening Events made our fashion show a huge success! Managing registrations and communicating with participants was stress-free. The real-time updates and secure data handling were a game-changer. Thank you for being such a dependable partner.</p>
+              <div id="p"><p><span><b>-Prajakta Desai <br> Fashion Show Organizer</b></span>
+             </p></div>
+
             </div>
           </div>
 
@@ -235,10 +339,11 @@
         </div>
 
         <div id="comingsoon">
-            <img src="/src/icon wait.png" alt="">
+            <img src="/srcs/icon wait.png" alt="">
             <h1>Something is coming wait for while...!</h1>
           
         </div>
+        
     </div><!--main-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
