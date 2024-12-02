@@ -43,6 +43,7 @@
             <div id="con">
                 <i class="ri-menu-line" id="m"></i>
                 </div>
+
         </div>
 
         <div id="bar">
@@ -80,7 +81,7 @@
       <div id="page2">
         <div id="page2text">
         <h2>Our Experties</h2>
-        <h1>From mind to <span>spotlite,</span> idea travel <br>
+        <h1>From mind to <span>spotlight,</span> idea travel <br>
         and we make it <span>happen!</span></h1>
 
         <p>We're not just planners; we're storytellers, coordinators, and creators. Our services <br>
