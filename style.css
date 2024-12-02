@@ -14,30 +14,63 @@ span{
     color: #C87AFF;
 }
 #whatsapp{
-    width: 50px;
-    height: 40px;
-    background-color: red;
+    width: 3.125rem;
+    height: 6rem;
     position: fixed;
     top: 50%;
     left: 100%;
     transform: translate(-100%,-50%);
     display: none;
+    z-index: 1111;
+}
+#whatsapp a{
+    text-decoration: none;
+}
+#whatsapp .ri-whatsapp-line{
+    height: 50%;
+    width: 100%;
+    background-color: #25D366;
+    color: white;
+    font-size: 3rem;
+    text-decoration: none;
+}
+#whatsapp .ri-phone-line{
+    font-size: 3rem;
+    color: white;
+}
+#whatsapp img{
+    display: none;
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    background-color: green;
+    color: white;
+}
+#whatsapp #phone{
+    height:50% ;
+    width: 100%;
+    background-color: red;
+}
+@media (width<600px) {
+    #whatsapp{
+        display: block;
+    }
 }
 #main{
     height: 100%;
     width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
-nav{
+/*nav{
     margin-top: 2rem;
     position: absolute;
     width: 100%;
     height: 5.938rem;
     padding: 0px 3rem;
     background-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+   
 }
 nav #logo{
     height: 100%;
@@ -70,11 +103,22 @@ nav .ri-menu-line{
 #links button{
     height: 3.2rem;
     width: 7rem;
-    border: 1px solid black;
     border-radius: 2rem;
     border: none;
     cursor: pointer;
     color: #C87AFF;
+}
+.nav{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+#slider{
+    display: none;
+    transition: 2s;
 }
 @media (width < 600px) {
     nav{
@@ -94,16 +138,41 @@ nav .ri-menu-line{
     nav #links{
         height: 100%;
         width: 50%;
-        background-color: #C87AFF;
+        background-color: transparent;
         border-radius: 0;
         padding: 1rem;
+       position: relative;
      }
      nav #links ul{
        display: none;
     }
     nav .ri-menu-line{
         display: block;
+        position: absolute;
+        top: 25%;
+        left: 75%;
     }
+    nav .ri-menu-line{
+        display: block;
+        font-size: 2.5rem;
+    }
+    #slider{
+        height: 50vh;
+        width: 50vw;
+        background-color: green;
+        padding: 1rem;    
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(50%,-0%);
+        transition: 1.5s all ease;
+        display: block;
+     }
+    #links1{
+        height: 100%;
+        width: 100%; 
+     }
+    
 }
 
 @media  ( width > 600px) and (width < 900px ){
@@ -146,22 +215,115 @@ nav .ri-menu-line{
         font-size: 0.8rem;
     }
 }
-#slider{
-    height: 20rem;
-    width: 10rem;
-    background-color: green;
-    padding: 1rem;    
-    position: absolute;
-    top: 5rem;
-    left: 10%;
-    overflow-y: hidden;
-    display: none;
- }
-#links1{
-    height: 100%;
-    width: 100%; 
- }
 
+*/
+#nav{
+    height: 5.9375rem;
+    width: 100%;
+    background-color: transparent;
+    align-items: center;
+    padding: 0px 3.125rem;
+    position: absolute;
+    top: 2.6rem;
+    left: 0;
+    display: flex;
+}
+#logo{
+    height: 100%;
+    width: 30%;
+    background-color: gray;
+}
+#list{
+    height: 100%;
+    width: 75rem;
+    background-color:#C87AFF;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3.125rem;
+}
+#list a{
+    font-size: 1.375rem;
+    color: white;
+    text-decoration: none;
+}
+#list button{
+    width: 9rem;
+    height: 3rem;
+    padding: .6875rem 3rem .75rem 2.9375rem;
+    gap: 0px;
+    border-radius: 2.5rem;
+    opacity: 0px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color: #C87AFF;
+}
+#con i{
+    font-size: 2.5rem;
+    color: white;
+    display: none;
+    position: absolute; 
+    top: 25%;
+    left: 85%;
+}
+#bar{
+    width: 40%;
+    height: 50vh;
+    position: absolute;
+    top: 100px;
+    left: 100%;
+}
+@media (width<600px) {
+    #nav{
+        height: 5rem;
+        background-color:#C87AFF;
+        top: 0;
+        padding: 0px 2rem;
+    }
+    #list{
+        display: none;
+    }
+    #logo{
+        width: 40%;
+    }
+    #con i{
+        display: block;
+    }
+    #bar{
+        position: fixed;
+        top: 5rem;
+        left: 50%;
+        height: 600px;
+        width: 50%;
+        background-color: rebeccapurple;
+        transform: translateX(110%); 
+        transition: all ease 0.5s;  
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #bar a{
+        font-size: 1.375rem;
+        color: white;
+        text-decoration: none;
+    }
+    #bar button{
+        width: 144px;
+        height: 50px;
+        padding: .6875rem 3rem .75rem 2.9375rem;
+        gap: 0px;
+        border-radius: 2.5rem;
+        opacity: 0px;
+        border: none;
+        background-color: white;
+        cursor: pointer;
+        color: #C87AFF;
+    }
+   
+}
 
 
 
@@ -410,17 +572,35 @@ nav .ri-menu-line{
     height: 100%;
   }
 
- #swiperdiv .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-background-color: red;    display: flex;
-    justify-content: center;
-    align-items: center;
+  #swiperdiv .swiper-slide .box1{
+    width: 100%;
+    height: 50%;
+  }
+  #swiperdiv .swiper-slide .box2{
+    width: 100%;
+    height: 50%;
+    padding: 1rem;
+  }
+  #swiperdiv .swiper-slide .box1 #imagebox{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  #swiperdiv .swiper-slide .box1 #imagebox img{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    font-size: 10rem;
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
   }
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: gray;
+    background:#F4E5FF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -604,7 +784,7 @@ background-color: red;    display: flex;
 
 @media (width<600px) {
     #page4{
-        height: 100vh;
+        height: 110vh;
         width: 100%;
         position: relative;
         display:block;
@@ -707,6 +887,7 @@ background-color: red;    display: flex;
    color: #C87AFF;
 }
 #p5container h3{
+    padding-top: 1rem;
     font-size: 1.563rem;
     line-height: 2.344rem;
 }
@@ -719,12 +900,36 @@ background-color: red;    display: flex;
     line-height: 2.344rem;
     color: #686868;
 }
+#p5swiper{
+    margin-top: 3%;
+    padding: 0px 1rem;
+    height: 15rem;
+    width: 100%;
+}
+#page5 .swiper-slide {
+    text-align: center;
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#page5 .swiper-slide img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 @media (width<600px) {
     #page5{
         height: 100vh;
         width: 100%;
         padding: 3% 3%;
         background-color: #F4E5FF;
+    }
+    #p5swiper{
+        height: 20rem;
+        background-color: transparent;
+        padding: 0 0;
     }
     #p5container{
         height: 50%;
@@ -743,11 +948,7 @@ background-color: red;    display: flex;
         color: #686868;
     }
 }
-#p5swiper{
-    margin-top: 3%;
-    height: 20.375rem;
-    width: 100%;
-}
+
 @media (width>600px) and (width<900px) {
     #page5{
         height: 70vh;
@@ -794,29 +995,45 @@ background-color: red;    display: flex;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .card{
     height: 100%;
     width: 25rem;
-    padding: 1rem;
     border: 2px solid #C87AFF;
     border-radius: 0.5rem;
+    position: relative;
 }
 .card h3 {
     color:#C87AFF;
+    margin-top: 1rem;
 }
-.card p {
-    color:#C87AFF;
+.card p{
+    color: #9A9696;
+    font-family: Poppins;
+    font-size: 2.125rem;
+    font-weight: 300;
+    line-height: 2.2rem;
+    margin: 1rem;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
-.cardp{
-  height: auto;
-  width: 100%;
-} 
-.cardp p{
-    color: #C87AFF;
+.card #p {
+    position: absolute;
+    top: 82%;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    z-index: 111;
 }
+.card #p p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
 #page6 p{
     margin-top: 1.5rem;
     font-size: 1.5rem;
@@ -824,7 +1041,7 @@ background-color: red;    display: flex;
 }
 @media (width<600px) {
     #page6{
-        height:210vh;
+        height:250vh;
         width: 100%;
     }
     #p6textbox{
@@ -855,6 +1072,10 @@ background-color: red;    display: flex;
         height: 100%;
         width: 100%;
         border: 1px solid #C87AFF;
+    }
+    .card #p{
+        top: 75%;
+        width: 100%;
     }
     #page6 p{
         margin-top: 2rem;
