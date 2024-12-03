@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Services</title>
-        <link rel="stylesheet" href="services.css">
+        <link rel="stylesheet" href="try1.css">
     </head>
     <body>
 
@@ -156,7 +156,7 @@
                 an event service - you're<br>
                 partnering with a team committed to excellence. Our expertise, technology-driven<br>solutions, and 
                 attention to detail make every event unforgettable.<br><br>
-                Let's create magic together! Contact us today to discuss our next event.
+                <span class="dark"'> Let's create magic together! Contact us today to discuss our next event.</span>
                 </p>
             </div>
         </section>

@@ -256,6 +256,7 @@ nav .ri-menu-line{
     padding-left: 80px;
 }
 
+/* adjust images pos next time */
 .heading3{
     background-color:  #4b236d;
     height: 500px;
@@ -429,6 +430,10 @@ nav .ri-menu-line{
     font-size: 30px;
     color: black;
     padding-bottom: 40px;
+}
+
+.desc .heading p .dark{
+    color: purple;
 }
 /* form */
 .form-section {

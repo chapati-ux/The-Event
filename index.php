@@ -22,9 +22,9 @@
         <div id="links">
             <ul>
                <a href="">Home</a>
-               <a href="about.html">About Us</a>
+               <a href="about.php">About Us</a>
                <a href="">Gallery</a>
-               <a href="services.html">Services</a>
+               <a href="services.php">Services</a>
                <a href="">Events</a>
                <a href="">Blogs</a>
                <a href="contaact.php">Contact Us</a>
