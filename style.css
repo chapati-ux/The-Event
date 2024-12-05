@@ -63,160 +63,6 @@ span{
     position: relative;
 }
 
-/*nav{
-    margin-top: 2rem;
-    position: absolute;
-    width: 100%;
-    height: 5.938rem;
-    padding: 0px 3rem;
-    background-color: transparent;
-   
-}
-nav #logo{
-    height: 100%;
-    width: 20%;
-    background-color: gray;
-}
-nav #links{
-   height: 100%;
-   width: 67.5rem;
-   background-color: #C87AFF;
-   border-radius: 3.125rem;
-   padding: 1rem;
-}
-nav #links ul{
-    height: 100%;
-    width: 100%;
-    color: white;
-    font-size: 1.375rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-nav #links a{
-    text-decoration: none;
-    color: white;
-}
-nav .ri-menu-line{
-    display: none;
-}
-#links button{
-    height: 3.2rem;
-    width: 7rem;
-    border-radius: 2rem;
-    border: none;
-    cursor: pointer;
-    color: #C87AFF;
-}
-.nav{
-    height: auto;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    overflow: hidden;
-}
-#slider{
-    display: none;
-    transition: 2s;
-}
-@media (width < 600px) {
-    nav{
-        margin-top: 0;
-        width: 100%;
-        height: 5rem;
-        padding: 0px 0px;
-        background-color: transparent;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-    nav #logo{
-        width: 50%;
-        background-color: red;
-    }
-    nav #links{
-        height: 100%;
-        width: 50%;
-        background-color: transparent;
-        border-radius: 0;
-        padding: 1rem;
-       position: relative;
-     }
-     nav #links ul{
-       display: none;
-    }
-    nav .ri-menu-line{
-        display: block;
-        position: absolute;
-        top: 25%;
-        left: 75%;
-    }
-    nav .ri-menu-line{
-        display: block;
-        font-size: 2.5rem;
-    }
-    #slider{
-        height: 50vh;
-        width: 50vw;
-        background-color: green;
-        padding: 1rem;    
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        transform: translate(50%,-0%);
-        transition: 1.5s all ease;
-        display: block;
-     }
-    #links1{
-        height: 100%;
-        width: 100%; 
-     }
-    
-}
-
-@media  ( width > 600px) and (width < 900px ){
-   
-    nav{
-        margin-top: 2rem;
-        width: 100%;
-        height: 5rem;
-        padding: 0px 1rem;
-    }
-    nav #logo{
-        height: 100%;
-        width: 15%; 
-        background-color: gray;
-    }
-    nav #links{
-       height: 100%;
-       width: 85%;
-       background-color: #C87AFF;
-       border-radius: 3.125rem;
-       padding: 1rem;
-    }
-    nav #links ul{
-        height: 100%;
-        width: 100%;
-        color: white;
-        font-size: 1rem;
-        font-weight: 700;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-    nav #links a{
-        text-decoration: none;
-        color: white;
-    }
-    #links button{
-        height: 2.5rem;
-        width: 5rem;
-        font-size: 0.8rem;
-    }
-}
-
-*/
 #nav{
     height: 5.9375rem;
     width: 100%;
@@ -292,7 +138,6 @@ nav .ri-menu-line{
         display: block;
     }
     #bar{
-        position: fixed;
         top: 5rem;
         left: 50%;
         height: 600px;
@@ -304,6 +149,7 @@ nav .ri-menu-line{
         align-items: center;
         flex-direction: column;
         justify-content: space-around;
+        z-index: 111;
     }
     #bar a{
         font-size: 1.375rem;
@@ -883,6 +729,27 @@ nav .ri-menu-line{
     width: 100%;
     text-align: center;
 }
+#pg5container{
+    padding-top: 9.5rem;
+    height: 35%;
+    width: 100%;
+    text-align: center;
+}
+#pg5container h3{
+    font-size: 1.563rem;
+    line-height: 2.344rem;
+}
+#pg5container h1{
+    font-size: 3.75rem;
+    line-height: 5.625rem;
+
+}
+#pg5container p{
+    font-size: 1.563rem;
+    line-height: 2.344rem;
+    color: #686868;
+}
+
 #page5 span{
    color: #C87AFF;
 }
@@ -905,6 +772,16 @@ nav .ri-menu-line{
     padding: 0px 1rem;
     height: 15rem;
     width: 100%;
+}
+#pg5swiper{
+    position: absolute;
+    margin-top: 1rem;
+    top: 50%;
+    left: 0;
+    padding: 0px 1rem;
+    height: 15rem;
+    width: 100%;
+    background-color: red;
 }
 #page5 .swiper-slide {
     text-align: center;
@@ -1325,5 +1202,150 @@ nav .ri-menu-line{
     }
     #comingsoon h1{
         font-size: 1.8rem;
+    }
+}
+
+
+
+
+
+.form-section {
+    height: 20rem;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(200, 122, 255, 255);
+    padding: 80px;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.form {
+    background-color: white;
+    height: 100px;
+    width: 300px;
+    min-width: 950px;
+    /* padding: 30px 160px; */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    width: fit-content;
+    padding: 20px;
+}
+
+.form input {
+    flex: 1;
+    /* padding: 10px 15px ; */
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px; */
+    padding: .625rem .625rem .625rem .625rem;
+    font-size: 2rem;
+    color: green;
+}
+
+.form input:focus {
+    /* border-color: rgba(200, 122, 255, 255);
+    box-shadow: 0 0 5px rgba(181, 137, 248, 0.5); */
+}
+
+.send-message {
+    background-color: #3d145a;
+    color: white;
+    /* padding: 20px 60px; */
+    height: 60px;
+    width: 250px;
+    align-items: right;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.send-message:hover {
+    background-color: #290d3e;
+}
+@media (width<600px) {
+    .form-section {
+        height: 50vh;
+        text-align: center;
+        background-color: rgba(200, 122, 255, 255);
+    }
+    .form{
+        flex-direction: column;
+        height: 9rem;
+        width: 50%;
+        min-width: 950px;
+        /* padding: 30px 160px; */
+        border-radius: 10px;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5px;
+        padding: 0;
+        width: fit-content;
+    }
+    .form input {
+        flex: 1;
+        /* padding: 10px 15px ; */
+        /* border: 1px solid #ccc; */
+        /* border-radius: 5px; */
+        padding: 0px 0px 0px 0px;
+        font-size: 2rem;
+        color: green;
+    }
+    .send-message {
+        background-color: #3d145a;
+        color: white;
+        /* padding: 20px 60px; */
+        height: 3.75rem;
+        width: 15.625rem;
+        align-items: right;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.5rem;
+    }
+}
+/* contact*/
+.contact-info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding-top: 20px;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.contact-info p {
+    margin: 0 10px;
+    transition: color 1s;
+}
+
+.contact-info p:hover {
+    color: purple;
+}
+@media (width<600px) {
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        padding-top: 0px;
+        color: white;
+        font-size: 1.8rem;
+    }
+    .contact-info p {
+        font-size: 1.5rem;
+        line-height: 3rem;
+        margin: 0 10px;
+        transition: color 1s;
+    }
+    .contact-info p:hover {
+        color: purple;
     }
 }
