@@ -2,17 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 html body{
     height: 100%;
     width: 100%;
+    position: relative;
 }
-
 span{
-    color:#3E0C61;
-    
+    color: #C87AFF;
 }
 #whatsapp{
     width: 3.125rem;
@@ -60,9 +59,9 @@ span{
 #main{
     height: 100%;
     width: 100%;
+    overflow: hidden;
+    position: relative;
 }
-
-
 #nav{
     height: 5.9375rem;
     width: 100%;
@@ -73,7 +72,6 @@ span{
     top: 2.6rem;
     left: 0;
     display: flex;
-    z-index: 11;
 }
 #logo{
     height: 100%;
@@ -121,7 +119,6 @@ span{
     position: absolute;
     top: 100px;
     left: 100%;
-    z-index: 1111;
 }
 @media (width<600px) {
     #nav{
@@ -140,7 +137,6 @@ span{
         display: block;
     }
     #bar{
-        position: fixed;
         top: 5rem;
         left: 50%;
         height: 600px;
@@ -152,10 +148,12 @@ span{
         align-items: center;
         flex-direction: column;
         justify-content: space-around;
+        z-index: 111;
     }
     #bar a{
         font-size: 1.375rem;
         color: white;
+        text-decoration: none;
     }
     #bar button{
         width: 144px;
@@ -172,70 +170,64 @@ span{
    
 }
 
- /*--page1--*/
-#page1{
-    height: 100vh;
+#page5{
+    height: auto;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    background-color: white;
 }
-
-#container{
-    height: 17.4375rem;
-    width: auto;
-    gap: 2rem;
-    margin-top: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box{
-    height: 17.4375rem;
-    width: 25.625rem;
-    background-color: rgba(200, 122, 255, 0.19); 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-.box p{
-    font-size: 1.25rem;
-    line-height: 1.25rem;
+#p5container{
+    padding: 9.5rem 1rem 1rem 1rem;
+    height: 35%;
+    width: 100%;
     text-align: center;
-    color:#686868;   
 }
-.box a{
-    text-decoration: none;
+#p5container h3{
+    font-size: 1.563rem;
+    line-height: 2.344rem;
+}
+#p5container h1{
+    font-size: 3.75rem;
+    line-height: 5.625rem;
 
 }
-#text{
-    font-size: 1.5625rem;
-    position: absolute;
-    top: 25%;
-    color: #3E0C61;
+#p5container p{
+    font-size: 1.563rem;
+    line-height: 3.344rem;
+    color: #686868;
 }
-@media (width<600px) {
-    #page1{
-        padding: 1rem;
-    }
-    #container{
-        flex-direction: column;
-        height: 80%;
-        width: 100%;
-    }
-    .box{
-        width: 100%;
-    }
-    #text{
-        top: 12%;
-    }
+#pg5swiper{
+    margin: 3rem 0;
+    top: 0%;
+    left: 0;
+    padding: 0px 1rem;
+    height: 15rem;
+    width: 100%;
 }
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
 
-/* form */
-.form-section {
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+
+  
+  .form-section {
     height: 20rem;
     width: 100%;
     text-align: center;
@@ -299,7 +291,6 @@ span{
 @media (width<600px) {
     .form-section {
         height: 50vh;
-        width: 100%;
         text-align: center;
         background-color: rgba(200, 122, 255, 255);
     }

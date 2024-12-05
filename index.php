@@ -30,27 +30,29 @@
      
      <div id="nav">
       <div id="logo"></div>
+
            <div id="list">
                 <a href="index.php">Home</a>
                 <a href="">About Us</a>
-                <a href="">Gallery</a>
-                <a href="">services</a>
+                <a href="gallery.php">Gallery</a>
+                <a href="services.html">services</a>
                 <a href="">Events</a>
                 <a href="">Blogs</a>
                 <a href="contact.php">Contact Us</a>
                 <button><b>Coming soon</b></button>
-            </div>
-            <div id="con">
-                <i class="ri-menu-line" id="m"></i>
-                </div>
+           </div>
 
-        </div>
+               <div id="con">
+                <i class="ri-menu-line" id="m"></i>
+               </div>
+
+     </div>
 
         <div id="bar">
             <a href="index.php">Home</a>
             <a href="">About Us</a>
-            <a href="">Gallery</a>
-            <a href="">services</a>
+            <a href="gallery.php">Gallery</a>
+            <a href="services.html">services</a>
             <a href="">Events</a>
             <a href="">Blogs</a>
             <a href="contact.php">Contact Us</a>
@@ -344,6 +346,22 @@
           
         </div>
         
+
+        <section class="form-section">
+            <div class="form-container">
+                <div class="form" action="#" method="POST">
+                    <input type="text" name="question" placeholder="Do you have any questions" required>
+                    <button type="submit" class="send-message">Send message</button>
+                </div>
+            </div>
+    
+            <!-- contact -->
+            <div class="contact-info">
+                <p>+91 9769223537</p>
+                <p>thehappeningevents11@gmail.com</p>
+                <p>Ulwe Navi Mumbai</p>
+            </div>
+        </section>
     </div><!--main-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
