@@ -4,29 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"/>
-    <link
-       rel="stylesheet"
-       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-     />
-
+    <link rel="stylesheet" href="events.css">
 </head>
 <body>
-    <div id="whatsapp">
-      <a href="https://Wa.me/+917208708137" target="_blank">
-      <img src="srcs/whatsapp-fill.svg" alt="">
-      <i class="ri-whatsapp-line"></i>
-      </a>
-      <div id="phone">
-        <a href="tel:+91 7208708137">    
-              <i class="ri-phone-line"></i>
-      </a>
-      </div>
-    </div>
-    <div id="main">
+<div id="main">
      
      <div id="nav">
       <div id="logo"></div>
@@ -36,7 +17,7 @@
                 <a href="">About Us</a>
                 <a href="gallery.php">Gallery</a>
                 <a href="services.html">services</a>
-                <a href="events.php">Events</a>
+                <a href="event.php">Events</a>
                 <a href="">Blogs</a>
                 <a href="contact.php">Contact Us</a>
                 <button><b>Coming soon</b></button>
@@ -59,7 +40,8 @@
             <button><b>Coming soon</b></button>
         </div>
      
-     
+        </div><!--main-->
+
 
        <!-- page1-->
       <div id="page1">
@@ -362,8 +344,5 @@
                 <p>Ulwe Navi Mumbai</p>
             </div>
         </section>
-    </div><!--main-->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="script.js"></script>
 </body>
 </html>
