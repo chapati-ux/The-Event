@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+span{
+    color: #C87AFF;
+}
+#whatsapp{
+    width: 3.125rem;
+    height: 6rem;
+    position: fixed;
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%,-50%);
+    display: none;
+    z-index: 1111;
+}
+#whatsapp a{
+    text-decoration: none;
+}
+#whatsapp .ri-whatsapp-line{
+    height: 50%;
+    width: 100%;
+    background-color: #25D366;
+    color: white;
+    font-size: 3rem;
+    text-decoration: none;
+}
+#whatsapp .ri-phone-line{
+    font-size: 3rem;
+    color: white;
+}
+#whatsapp img{
+    display: none;
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    background-color: green;
+    color: white;
+}
+#whatsapp #phone{
+    height:50% ;
+    width: 100%;
+    background-color: red;
+}
+@media (width<600px) {
+    #whatsapp{
+        display: block;
+    }
+}
+#main{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#nav{
+    height: 5.9375rem;
+    width: 100%;
+    background-color: transparent;
+    align-items: center;
+    padding: 0px 3.125rem;
+    position: absolute;
+    top: 2.6rem;
+    left: 0;
+    display: flex;
+}
+#logo{
+    height: 100%;
+    width: 30%;
+    background-color: gray;
+}
+#list{
+    height: 100%;
+    width: 75rem;
+    background-color:#C87AFF;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3.125rem;
+}
+#list a{
+    font-size: 1.375rem;
+    color: white;
+    text-decoration: none;
+}
+#list button{
+    width: 9rem;
+    height: 3rem;
+    padding: .6875rem 3rem .75rem 2.9375rem;
+    gap: 0px;
+    border-radius: 2.5rem;
+    opacity: 0px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color: #C87AFF;
+}
+#con i{
+    font-size: 2.5rem;
+    color: white;
+    display: none;
+    position: absolute; 
+    top: 25%;
+    left: 85%;
+}
+#bar{
+    width: 40%;
+    height: 50vh;
+    position: absolute;
+    top: 100px;
+    left: 100%;
+}
+@media (width<600px) {
+    #nav{
+        height: 5rem;
+        background-color:#C87AFF;
+        top: 0;
+        padding: 0px 2rem;
+    }
+    #list{
+        display: none;
+    }
+    #logo{
+        width: 40%;
+    }
+    #con i{
+        display: block;
+    }
+    #bar{
+        top: 5rem;
+        left: 50%;
+        height: 600px;
+        width: 50%;
+        background-color: rebeccapurple;
+        transform: translateX(110%); 
+        transition: all ease 0.5s;  
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        z-index: 111;
+    }
+    #bar a{
+        font-size: 1.375rem;
+        color: white;
+        text-decoration: none;
+    }
+    #bar button{
+        width: 144px;
+        height: 50px;
+        padding: .6875rem 3rem .75rem 2.9375rem;
+        gap: 0px;
+        border-radius: 2.5rem;
+        opacity: 0px;
+        border: none;
+        background-color: white;
+        cursor: pointer;
+        color: #C87AFF;
+    }
+   
+}
